@@ -115,4 +115,4 @@ jobs:
       - name: Run test action
         uses: ./.github/workflows/test-action
         with:
-          codecov_token: ${{ secrets.CODECOV_TOKEN }}
+          codecov_token: ${{ secrets.CODECOV_TOKEN }}    
